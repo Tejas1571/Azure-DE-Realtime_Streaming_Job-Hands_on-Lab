@@ -1,0 +1,15 @@
+Create a Resource Group - Add resources - Azure IOT Hub, Azure Stream Job, Azure Storage Account
+                          Use Raspberry-pi web-simulator - https://azure-samples.github.io/raspberry-pi-web-simulator/#GetStarted
+
+Step1 - In Azure IOT Hub - Add IOT Device(Raspberry-pi) - Copy connectionString -
+        In Raspberry-pi web-simulator - Add/paste connectionString = of Azure IOT Device  '';
+
+Step2 - In Azure Stream Job
+        Add input - Azure IOT Hub/ IOT Device ,
+      
+        Add output - Storage Account/container , 
+
+        Add Query - Azure Stream Job
+
+Step3 - Start Raspberry-pi web-simulator and Start the Stream Job
+        Streaming data will be Added in Storage Account/container
